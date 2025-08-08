@@ -1,0 +1,39 @@
+dataset: JQaRA
+
+full_data_setting:
+  num_train_epochs: 1
+  max_steps: 63
+
+limited_data_setting:
+  trials: 10
+  params:
+    v1:
+      num_train_epochs: 1
+      max_steps: 4
+    v2:
+      num_train_epochs: 3
+      max_steps: 12
+    v3:
+      num_train_epochs: 1
+      max_steps: 4
+    v4:
+      num_train_epochs: 7
+      max_steps: 28
+    v5:
+      num_train_epochs: 3
+      max_steps: 12
+    v6:
+      num_train_epochs: 5
+      max_steps: 20
+    v7:
+      num_train_epochs: 8
+      max_steps: 32
+    v8:
+      num_train_epochs: 5
+      max_steps: 20
+    v9:
+      num_train_epochs: 5
+      max_steps: 20
+    v10:
+      num_train_epochs: 4
+      max_steps: 16

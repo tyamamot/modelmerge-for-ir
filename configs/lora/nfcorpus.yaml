@@ -1,0 +1,39 @@
+dataset: NFCorpus
+
+full_data_setting:
+  num_train_epochs: 1
+  max_steps: 63
+
+limited_data_setting:
+  trials: 10
+  params:
+    v1:
+      num_train_epochs: 2
+      max_steps: 8
+    v2:
+      num_train_epochs: 6
+      max_steps: 24
+    v3:
+      num_train_epochs: 4
+      max_steps: 16
+    v4:
+      num_train_epochs: 4
+      max_steps: 16
+    v5:
+      num_train_epochs: 8
+      max_steps: 32
+    v6:
+      num_train_epochs: 4
+      max_steps: 16
+    v7:
+      num_train_epochs: 2
+      max_steps: 8
+    v8:
+      num_train_epochs: 11
+      max_steps: 44
+    v9:
+      num_train_epochs: 8
+      max_steps: 32
+    v10:
+      num_train_epochs: 4
+      max_steps: 16

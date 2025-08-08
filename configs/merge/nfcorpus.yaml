@@ -1,0 +1,39 @@
+dataset: NFCorpus
+
+full_data_setting:
+  alpha_lower: 0.75
+  alpha_upper: 1.0
+
+limited_data_setting:
+  trials: 10
+  params:
+    v1:
+      alpha_lower: 0.75
+      alpha_upper: 1.0
+    v2:
+      alpha_lower: 0.75
+      alpha_upper: 1.0
+    v3:
+      alpha_lower: 0.5
+      alpha_upper: 1.0
+    v4:
+      alpha_lower: 0.75
+      alpha_upper: 0.75
+    v5:
+      alpha_lower: 0.75
+      alpha_upper: 0.75
+    v6:
+      alpha_lower: 0.5
+      alpha_upper: 1.0
+    v7:
+      alpha_lower: 0.75
+      alpha_upper: 0.75
+    v8:
+      alpha_lower: 0.75
+      alpha_upper: 0.75
+    v9:
+      alpha_lower: 0.75
+      alpha_upper: 0.75
+    v10:
+      alpha_lower: 1.0
+      alpha_upper: 0.75

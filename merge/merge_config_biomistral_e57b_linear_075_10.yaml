@@ -1,0 +1,25 @@
+dtype: float16
+merge_method: linear
+parameters:
+  int8_mask: 1.0
+  normalize: 1.0
+tokenizer_source: ./local_e5-mistral-7b
+slices:
+- sources:
+  - layer_range: [0, 16]
+    model: ./local_e5-mistral-7b
+    parameters:
+      weight: 0.75
+  - layer_range: [0, 16]
+    model: ./local_BioMistral-7B
+    parameters:
+      weight: 0.25
+- sources:
+  - layer_range: [16, 32]
+    model: ./local_e5-mistral-7b
+    parameters:
+      weight: 1.0
+  - layer_range: [16, 32]
+    model: ./local_BioMistral-7B
+    parameters:
+      weight: 0

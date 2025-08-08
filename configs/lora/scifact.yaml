@@ -1,0 +1,39 @@
+dataset: SciFact
+
+full_data_setting:
+  num_train_epochs: 1
+  max_steps: 51
+
+limited_data_setting:
+  trials: 10
+  params:
+    v1:
+      num_train_epochs: 3
+      max_steps: 12
+    v2:
+      num_train_epochs: 2
+      max_steps: 8
+    v3:
+      num_train_epochs: 4
+      max_steps: 16
+    v4:
+      num_train_epochs: 3
+      max_steps: 12
+    v5:
+      num_train_epochs: 11
+      max_steps: 44
+    v6:
+      num_train_epochs: 2
+      max_steps: 8
+    v7:
+      num_train_epochs: 3
+      max_steps: 12
+    v8:
+      num_train_epochs: 3
+      max_steps: 12
+    v9:
+      num_train_epochs: 2
+      max_steps: 8
+    v10:
+      num_train_epochs: 2
+      max_steps: 8
