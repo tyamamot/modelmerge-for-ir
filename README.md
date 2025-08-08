@@ -2,7 +2,7 @@
 
 This is the repository for the paper:
 > Taiga Sasaki, Takehiro Yamamoto, Hiroaki Ohshima and Sumio Fujita:  
-> *Effect of Model Merging in Domain-Specific Ad-hoc Retrieval*. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025),   
+> *Effect of Model Merging in Domain-Specific Ad-hoc Retrieval*. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025),
 > November 2025.  
 
 To reproduce the results reported in the paper, please follow the instructions below.
@@ -184,12 +184,12 @@ python jqara_cal.py --method source
 python jqara_evaluate.py --method source
 ```
 ## Note
-- The steps for installing packages, downloading models, and merging models are preparatory tasks. Complete these steps before proceeding with evaluation.
+The steps for installing packages, downloading models, and merging models are preparatory tasks. Complete these steps before proceeding with evaluation.
 
 ## How to Cite
 If you use this code or data, please cite it as follows:
 > Taiga Sasaki, Takehiro Yamamoto, Hiroaki Ohshima and Sumio Fujita:  
-> *Effect of Model Merging in Domain-Specific Ad-hoc Retrieval*. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025),   
+> *Effect of Model Merging in Domain-Specific Ad-hoc Retrieval*. In Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025),
 > November 2025.
 
 ## Contact
