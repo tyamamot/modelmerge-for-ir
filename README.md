@@ -196,4 +196,4 @@ If you use this code or data, please cite it as follows:
 For any inquiries, please contact:
 
 **Takehiro Yamamoto, University of Hyogo**  
-Email: [t.yamamoto@sis.u-hyogo.ac.jp](t.yamamoto@sis.u-hyogo.ac.jp)
+Email: [t.yamamoto@sis.u-hyogo.ac.jp](mailto:t.yamamoto@sis.u-hyogo.ac.jp)
